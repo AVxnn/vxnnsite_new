@@ -1,0 +1,40 @@
+:root {
+  --main-color: #4659FF;
+  --background-color: #FFFFFF;
+  --subbackground-color: #17171A;
+  --text-color: #17171a;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-color: #4659FF;
+    --background-color: #17171A;
+    --subbackground-color: #17171A;
+    --text-color: #FFFFFF;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all 0.2s ease;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

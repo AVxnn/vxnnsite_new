@@ -1,0 +1,88 @@
+@import "/style/variables.scss";
+
+.item {
+  width: 100%;
+  border-radius: 32px;
+  display: flex;
+  gap: 32px;
+  padding: 32px;
+  background-color: $subbackground-color;
+
+  .leftBlock {
+    display: flex;
+    width: 100%;
+    max-width: 46px;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+
+    .avatar {
+
+      img {
+        border-radius: 32px;
+      }
+    }
+    .menu {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .share svg {
+        width: 32px;
+        height: 32px;
+      }
+      .like svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+    
+  }
+  
+  .rightBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .title {
+      font-size: 40px;
+      color: $text-color;
+      cursor: pointer;
+
+      &:hover {
+        color: $main-color;
+      }
+    }
+    .image {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      
+      img {
+        border-radius: 32px;
+      }
+    }
+    .infoBar {
+      display: flex;
+      gap: 48px;
+      margin-bottom: 8px;
+
+      .date {
+        font-size: 16px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+      .readTime {
+        font-size: 16px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+      }
+    }
+    .description {
+      font-size: 24px;
+      color: $text-color;
+      margin-bottom: 8px;
+    }
+  }
+}

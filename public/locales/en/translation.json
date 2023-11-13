@@ -1,0 +1,16 @@
+{
+  "title": "Hello World!",
+  "menu": {
+    "home": "MAIN",
+    "blog": "BLOG",
+    "about": "ABOUT ME",
+    "contacts": "CONTACTS",
+    
+    "sendme": "НАПИСАТЬ МНЕ"
+  },
+  "main": {
+    "title": "Romashko George",
+    "subtitle": "</Front-end Developer>",
+    "description": "I have been developing for about 3 years, <br/> I have a strong sense of desire and learning new things."
+  }
+}

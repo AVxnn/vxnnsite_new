@@ -1,0 +1,29 @@
+@import "/style/variables.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 780px;
+  width: 100%;
+
+  .inputContainer {
+    position: relative;
+    display: flex;
+    svg {
+      top: 16px;
+      left: 32px;
+      position: absolute;
+    }
+
+    .input {
+      width: 100%;
+      font-size: 23px;
+      padding: 16px 32px 16px 70px;
+      outline: none;
+      border: none;
+      border-radius: 32px;
+      background-color: $subbackground-color;
+    }
+  }
+  
+}

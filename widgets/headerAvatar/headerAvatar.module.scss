@@ -1,0 +1,15 @@
+
+.headerAvatar {
+  position: absolute;
+  right: 48px;
+
+  .avatar {
+    position: relative;
+    width: 46px;
+    height: 46px;
+
+    img {
+      border-radius: 32px;
+    }
+  }
+}
