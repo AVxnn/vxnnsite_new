@@ -5,4 +5,8 @@
   gap: 24px;
   position: absolute;
   right: 48px;
+  align-items: center;
+  @media screen and (max-width: 639px) {
+    gap: 12px;
+  }
 }

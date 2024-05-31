@@ -7,10 +7,15 @@
   max-height: 60px;
   padding: 16px 16px;
   border-radius: 48px;
-  border: 1px solid $text-color;
+  // border: 1px solid $text-color;
   display: flex;
   align-items: center;
   gap: 12px;
+  @media screen and (max-width: 639px) {
+    gap: 6px;
+    font-size: 14px;
+    padding: 8px 8px;
+  }
 
   .backgroundItem {
     position: absolute;
@@ -24,6 +29,10 @@
   .item {
     padding: 10px 16px;
     white-space: nowrap;
+    
+    @media screen and (max-width: 639px) {
+      padding: 8px 8px;
+    }
   }
 
   .active {
