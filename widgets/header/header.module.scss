@@ -9,13 +9,19 @@
   justify-content: center;
   align-items: center;
   z-index: 100;
+  @media screen and (max-width: 639px) {
+    font-size: 18px;
+    padding: 40px 24px;
+  }
 
   .logotype {
     position: absolute;
     font-size: 24px;
+    color: $text-color;
     left: 48px;
     @media screen and (max-width: 639px) {
       font-size: 18px;
+      left: 24px;
     }
   }
 }

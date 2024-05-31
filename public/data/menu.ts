@@ -4,19 +4,19 @@ export const dataMenu = [
     link: '/',
     key: 'home'
   },
-  {
-    title: 'blog',
-    link: '/blog',
-    key: 'blog'
-  },
-  {
-    title: 'about',
-    link: '/about',
-    key: 'about'
-  },
-  {
-    title: 'contacts',
-    link: '/contacts',
-    key: 'contacts'
-  },
+  // {
+  //   title: 'blog',
+  //   link: '/blog',
+  //   key: 'blog'
+  // },
+  // {
+  //   title: 'about',
+  //   link: '/about',
+  //   key: 'about'
+  // },
+  // {
+  //   title: 'contacts',
+  //   link: '/contacts',
+  //   key: 'contacts'
+  // },
 ]
