@@ -1,4 +1,4 @@
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import React from "react";
 import SearchHeader from "../searchHeader/searchHeader";
 import styles from "./changeHeaderComponent.module.scss";
@@ -9,6 +9,7 @@ import SwitchLanguage from "../switchLanguage/switchLanguage";
 
 const ChangeHeaderComponent = () => {
   const pathname = usePathname();
+  const router = useRouter();
 
   const { t } = useTranslation();
 
@@ -19,7 +20,9 @@ const ChangeHeaderComponent = () => {
           <div className={styles.buttonForm}>
             <SwitchLanguage />
 
-            <CustomButton>{t("menu.sendme")}</CustomButton>
+            <CustomButton onClick={() => router.push("https://t.me/romashkog")}>
+              {t("menu.sendme")}
+            </CustomButton>
           </div>
         </>
       );
@@ -35,7 +38,9 @@ const ChangeHeaderComponent = () => {
         <>
           <div className={styles.buttonForm}>
             <SwitchLanguage />
-            <CustomButton>{t("menu.sendme")}</CustomButton>
+            <CustomButton onClick={() => router.push("https://t.me/romashkog")}>
+              {t("menu.sendme")}
+            </CustomButton>
           </div>
         </>
       );
