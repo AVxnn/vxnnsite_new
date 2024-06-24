@@ -8,7 +8,8 @@ const About = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "100vh",
+        overflow: "hidden",
+        height: "100dvh",
       }}
     >
       <AboutMe />
