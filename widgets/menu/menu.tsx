@@ -45,14 +45,26 @@ const Menu = () => {
       {dataMenu.map((item, idnex: number) => {
         return (
           <FramerMagnetic key={item.key}>
-            <Link
-              className={`${styles.item} ${
-                item.link === pathname ? styles.active : ""
-              }`}
-              href={item.link}
-            >
-              {t(`menu.${item.title}`)}
-            </Link>
+            {item.key === "gamecust" ? (
+              <Link
+                target="_blank"
+                className={`${styles.item} ${
+                  item.link === pathname ? styles.active : ""
+                }`}
+                href={item.link}
+              >
+                {t(`menu.${item.title}`)}
+              </Link>
+            ) : (
+              <Link
+                className={`${styles.item} ${
+                  item.link === pathname ? styles.active : ""
+                }`}
+                href={item.link}
+              >
+                {t(`menu.${item.title}`)}
+              </Link>
+            )}
           </FramerMagnetic>
         );
       })}
