@@ -6,6 +6,7 @@ import { useTranslation } from "react-i18next";
 import CustomButton from "@/shared/ui/customButton/customButton";
 import HeaderAvatar from "@/widgets/headerAvatar/headerAvatar";
 import SwitchLanguage from "../switchLanguage/switchLanguage";
+import FramerMagnetic from "@/shared/FramerMagnetic";
 
 const ChangeHeaderComponent = () => {
   const pathname = usePathname();
@@ -18,19 +19,25 @@ const ChangeHeaderComponent = () => {
       return (
         <>
           <div className={styles.buttonForm}>
-            <SwitchLanguage />
-
-            <CustomButton onClick={() => router.push("https://t.me/romashkog")}>
-              {t("menu.sendme")}
-            </CustomButton>
+            <FramerMagnetic>
+              <SwitchLanguage />
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <CustomButton
+                onClick={() => router.push("https://t.me/romashkog")}
+              >
+                {t("menu.sendme")}
+              </CustomButton>
+            </FramerMagnetic>
           </div>
         </>
       );
     case "/blog":
       return (
         <>
-          <SearchHeader />
-          <HeaderAvatar />
+          <FramerMagnetic>
+            <HeaderAvatar />
+          </FramerMagnetic>
         </>
       );
     default:

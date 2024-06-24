@@ -9,11 +9,11 @@ export const dataMenu = [
   //   link: '/blog',
   //   key: 'blog'
   // },
-  // {
-  //   title: 'about',
-  //   link: '/about',
-  //   key: 'about'
-  // },
+  {
+    title: 'about',
+    link: '/about',
+    key: 'about'
+  },
   // {
   //   title: 'contacts',
   //   link: '/contacts',

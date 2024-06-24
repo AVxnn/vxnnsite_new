@@ -3,9 +3,9 @@
 .menu {
   position: fixed;
   bottom: 16px;
-  background-color: $main-color;
+  // background-color: $main-color;
   max-height: 60px;
-  padding: 16px 16px;
+  padding: 16px 14px;
   border-radius: 48px;
   // border: 1px solid $text-color;
   display: flex;
@@ -27,7 +27,7 @@
   }
 
   .item {
-    padding: 10px 16px;
+    padding: 10px 10px;
     white-space: nowrap;
     
     @media screen and (max-width: 639px) {

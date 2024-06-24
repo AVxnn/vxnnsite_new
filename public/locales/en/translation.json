@@ -12,5 +12,12 @@
     "title": "Romashko George",
     "subtitle": "</Front-end Developer>",
     "description": "I have been developing for about 3 years, <br/> I have a strong sense of desire and learning new things."
+  },
+  "about": {
+    "title": "Front-end Developer",
+    "tag": "About me",
+    "description": "I am George, a young Front end developer from St. Petersburg, Russia, creating working and beautiful websites and design. My specialization is developing next-level websites and web applications, including full frontend design and much more.",
+    "resumeRU": "Resume RU",
+    "resumeEN": "Resume EN"
   }
 }

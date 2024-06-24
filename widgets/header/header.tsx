@@ -41,7 +41,6 @@ const Header = ({ children }: headerProps) => {
         <h2>VXNN</h2>
       </div>
       {children}
-      
     </motion.div>
   );
 };

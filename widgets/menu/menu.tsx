@@ -5,6 +5,7 @@ import { dataMenu } from "@/public/data/menu";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, useAnimation } from "framer-motion";
+import FramerMagnetic from "@/shared/FramerMagnetic";
 
 interface item {
   title: string;
@@ -43,15 +44,16 @@ const Menu = () => {
     >
       {dataMenu.map((item, idnex: number) => {
         return (
-          <Link
-            className={`${styles.item} ${
-              item.link === pathname ? styles.active : ""
-            }`}
-            key={item.key}
-            href={item.link}
-          >
-            {t(`menu.${item.title}`)}
-          </Link>
+          <FramerMagnetic key={item.key}>
+            <Link
+              className={`${styles.item} ${
+                item.link === pathname ? styles.active : ""
+              }`}
+              href={item.link}
+            >
+              {t(`menu.${item.title}`)}
+            </Link>
+          </FramerMagnetic>
         );
       })}
     </motion.div>

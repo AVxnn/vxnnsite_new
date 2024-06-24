@@ -1,7 +1,7 @@
 :root {
   --main-color: #4659FF;
   --background-color: #17171A;
-  --subbackground-color: #17171A;
+  --subbackground-color: #2a2a30;
   --text-color: #FFFFFF;
 
 }
@@ -10,7 +10,7 @@
   :root {
     --main-color: #4659FF;
     --background-color: #17171A;
-    --subbackground-color: #17171A;
+    --subbackground-color: #2a2a30;
     --text-color: #FFFFFF;
   }
 }
@@ -32,6 +32,12 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.PageTransition_effect__AZFXI {
+  position: relative !important; 
+  user-select: all !important;
+  pointer-events: all !important;
 }
 
 @media (prefers-color-scheme: dark) {
