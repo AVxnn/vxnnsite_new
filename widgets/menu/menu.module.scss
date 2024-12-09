@@ -29,6 +29,7 @@
   .item {
     padding: 10px 10px;
     white-space: nowrap;
+    color: $text-color;
     
     @media screen and (max-width: 639px) {
       padding: 8px 8px;

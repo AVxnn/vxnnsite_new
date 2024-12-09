@@ -69,6 +69,7 @@
     .title {
       font-weight: bold;
       font-size: 32px;
+      color: $text-color;
       @media screen and (max-width: 980px) {
         font-size: 24px;
       }
@@ -77,6 +78,8 @@
     .description {
       width: 548px;
       font-size: 20px;
+      color: $subtext-color;
+      font-weight: 300;
       @media screen and (max-width: 980px) {
         width: 388px;
         font-size: 14px;

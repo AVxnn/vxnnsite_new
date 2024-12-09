@@ -42,7 +42,7 @@ const Menu = () => {
       transition={{ duration: 0.2 }}
       className={styles.menu}
     >
-      {dataMenu.map((item, idnex: number) => {
+      {dataMenu.map((item, index: number) => {
         return (
           <FramerMagnetic key={item.key}>
             {item.key === "gamecust" ? (
