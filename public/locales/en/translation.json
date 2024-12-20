@@ -11,12 +11,12 @@
   "main": {
     "title": "Romashko George",
     "subtitle": "</Front-end Developer>",
-    "description": "I have been developing for about 3 years, <br/> I have a strong sense of desire and learning new things."
+    "description": "Currently living in Saint-Petersburg, Russia <br/> Work at Wame.tools | Kokoc Group."
   },
   "about": {
-    "title": "Front-end Developer",
+    "title": "Mid Front-end Developer",
     "tag": "About me",
-    "description": "I am George, a young Front end developer from St. Petersburg, Russia, creating working and beautiful websites and design. My specialization is developing next-level websites and web applications, including full frontend design and much more.",
+    "description": "A young specialist with eyes full of passion. I code in TypeScript / Next. Over 3 years of total commercial experience.</br> Currently living in Saint Petersburg. I've worked solo as well as in large developer teams, done freelance work, and helped beginners enter development from scratch. I love watching movies and series, playing games, and recently started learning electric guitar and leading a healthy lifestyle!</br> Personal blog on TG - <a href='https://t.me/thevxnn'>nnxV blog</a> 👈</br> Personal channel for JS tests - <a href='https://t.me/frontwars'>Front Wars</a> 👈",
     "resumeRU": "Resume RU",
     "resumeEN": "Resume EN"
   }

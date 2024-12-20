@@ -17,8 +17,8 @@
     height: 654px;
     border-radius: 32px;
     overflow: hidden;
-    transition: all 2s ease-in-out;
-    animation: hue 3s ease-in-out infinite;
+    transition: all 2s linear;
+    animation: hue 3s linear infinite;
 
     @media screen and (max-width: 1280px) {
       max-width: 320px;
@@ -34,6 +34,11 @@
       max-width: 320px;
       width: 100%;
       height: 200px;
+    }
+    
+
+    @media screen and (max-height: 780px) {
+      display: none;
     }
 
     &:hover {
@@ -79,7 +84,13 @@
       width: 548px;
       font-size: 20px;
       color: $subtext-color;
+      line-height: 1.3;
       font-weight: 300;
+
+      a {
+        color: $main-color;
+      }
+
       @media screen and (max-width: 980px) {
         width: 388px;
         font-size: 14px;

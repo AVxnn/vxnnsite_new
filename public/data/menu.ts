@@ -14,9 +14,9 @@ export const dataMenu = [
     link: '/about',
     key: 'about'
   },
-  {
-    title: 'gamecust',
-    link: 'https://www.gamecust.ru/',
-    key: 'gamecust'
-  },
+  // {
+  //   title: 'gamecust',
+  //   link: 'https://www.gamecust.ru/',
+  //   key: 'gamecust'
+  // },
 ]

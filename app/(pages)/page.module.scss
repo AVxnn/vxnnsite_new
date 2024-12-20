@@ -54,10 +54,12 @@
     }
   
     .description {
-      color: $text-color;
+      color: $subtext-color;
       z-index: 5;
       margin-top: 24px;
+      font-weight: 400;
       font-size: 24px;
+      line-height: 1.5;
       @media screen and (max-width: 1279px) {
         font-size: 20px;
       }

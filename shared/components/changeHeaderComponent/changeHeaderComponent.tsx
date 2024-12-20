@@ -35,6 +35,7 @@ const ChangeHeaderComponent = () => {
     case "/blog":
       return (
         <>
+          <SearchHeader />
           <FramerMagnetic>
             <HeaderAvatar />
           </FramerMagnetic>
@@ -44,10 +45,16 @@ const ChangeHeaderComponent = () => {
       return (
         <>
           <div className={styles.buttonForm}>
-            <SwitchLanguage />
-            <CustomButton onClick={() => router.push("https://t.me/romashkog")}>
-              {t("menu.sendme")}
-            </CustomButton>
+            <FramerMagnetic>
+              <SwitchLanguage />
+            </FramerMagnetic>
+            <FramerMagnetic>
+              <CustomButton
+                onClick={() => router.push("https://t.me/romashkog")}
+              >
+                {t("menu.sendme")}
+              </CustomButton>
+            </FramerMagnetic>
           </div>
         </>
       );

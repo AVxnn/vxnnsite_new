@@ -18,7 +18,10 @@ const AboutMe = () => {
       <div className={styles.rightBlock}>
         <span className={styles.tag}>{t(`about.tag`)}</span>
         <h2 className={styles.title}>{t(`about.title`)}</h2>
-        <p className={styles.description}>{t(`about.description`)}</p>
+        <div
+          className={styles.description}
+          dangerouslySetInnerHTML={{ __html: t("about.description") }}
+        ></div>
         <div className={styles.formBtns}>
           <CustomButton
             ILink={

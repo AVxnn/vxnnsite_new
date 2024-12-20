@@ -13,7 +13,7 @@
     --background-color: #17171A;
     --subbackground-color: #2a2a30;
     --text-color: #FFFFFF;
-    --subtext-color: #303030;
+    --subtext-color: #CBCBCB;
   }
 }
 
@@ -22,6 +22,11 @@
   padding: 0;
   margin: 0;
   transition: all 0.2s ease;
+  -webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 html,

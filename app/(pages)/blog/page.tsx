@@ -6,7 +6,6 @@ import SearchHeader from "@/shared/components/searchHeader/searchHeader";
 const Blog = () => {
   return (
     <div className={styles.container}>
-      <SearchHeader />
       <div className={styles.list}>
         {["2", "2"].map((item: any, index: number) => {
           return <BlogItem key={index} />;
